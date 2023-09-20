@@ -157,8 +157,8 @@ try:
                     print("sending emails")
                     ######Sending email###########
                     sending_message = emails.html(
-                        html="<strong>" + "aaaaaaa" + "</strong>",
-                        subject="aaaaaaaaaaaaaaaaa",
+                        html="<strong>" + "You have one ticket in your basket. It expires in 20 minutes." + "</strong>",
+                        subject="Ticket notification",
                         mail_from="admin@aicc.omsdev.in",
                     )
                     r = sending_message.send(
